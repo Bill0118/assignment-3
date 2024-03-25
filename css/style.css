@@ -1,0 +1,152 @@
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+.wrapper1 {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper2 {
+    max-width: 940px;
+    margin: 0 auto; 
+}
+.wrapper3 {
+    max-width: 940px;
+    margin: 0 auto; 
+}
+.wrapper4 {
+    max-width: 940px;
+    margin: 0 auto; 
+}
+
+.emily {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+nav ul {
+display: flex;
+list-style: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+#hero {
+    height: 600px;
+    background-image: url(../images/hands-typing.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(0.70);
+}
+h1 {
+    color: #fff;
+    max-width: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 10%;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ 
+ 
+
+
+#services{
+    background-color: #fafafa;
+}
+#services h2 {
+    max-width: 0 auto;
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+}
+
+#services article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+
+
+.services-grid a:link,
+.services-grid a:link {
+  padding: .8em 1em;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 4px;
+  
+  margin-right: auto;
+}
+
+.services-grid a:hover,
+.services-grid a:focus {
+  background-color: #fff;
+  color: #414361;
+}
+
+#work h2, p {
+    max-width: 0 auto;
+    text-align: center;
+}
+
+.images-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "div1 div1 div1 div2 div2 div2"
+    "div3 div3 div4 div4 div5 div5"
+    ;
+}
+
+.images-c .block:nth-child(1) {
+    grid-area: div1;
+}
+
+.images-c .block:nth-child(2) {
+    grid-area: div2;
+}
+
+.images-c .block:nth-child(3) {
+    grid-area: div3;
+}
+.images-c .block:nth-child(4) {
+    grid-area: div4;
+}
+.images-c .block:nth-child(5) {
+    grid-area: div5;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+img {
+    width: 100%;
+  }
