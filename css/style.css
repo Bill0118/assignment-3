@@ -28,6 +28,13 @@ header {
     justify-content: left;
     align-items: center;
 }
+nav ul a:link {
+
+  background-color: black;
+  color: #fff;
+  text-decoration: none;}
+
+
 nav ul {
 display: flex;
 list-style: none;
@@ -59,14 +66,18 @@ h1 {
     justify-content: center;
 }
 
-.about-me-flex {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
 }
-
- 
- 
-
+   
+.about-me-flex .block:nth-child(1){
+    flex-basis: (75% - 4px);
+}
+.about-me-flex .block:nth-child(2){
+    flex-basis: (25% - 4px);
+}
 
 #services{
     background-color: #fafafa;
@@ -148,5 +159,5 @@ footer {
     color: #fff;
 }
 img {
-    width: 100%;
+    max-width: 100%;
   }
