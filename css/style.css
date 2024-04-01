@@ -28,12 +28,12 @@ header {
     justify-content: left;
     align-items: center;
 }
+nav ul a:link
 nav ul a:link {
-
   background-color: black;
   color: #fff;
-  text-decoration: none;}
-
+  text-decoration: none;
+}
 
 nav ul {
 display: flex;
@@ -66,11 +66,17 @@ h1 {
     justify-content: center;
 }
 
+#about-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
 
-#about-me {
-    display: flex;
-    flex-wrap: wrap;
 }
+#about-me-flex {
+    display: grid;
+    flex-direction: column;
+}
+
    
 .about-me-flex .block:nth-child(1){
     flex-basis: (75% - 4px);
