@@ -28,7 +28,6 @@ header {
     justify-content: left;
     align-items: center;
 }
-nav ul a:link
 nav ul a:link {
   background-color: black;
   color: #fff;
@@ -57,7 +56,7 @@ h1 {
     color: #fff;
     max-width: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
-    text-shadow: 10%;
+    text-shadow: 1cm ;
 }
 
 #hero {
@@ -68,7 +67,7 @@ h1 {
 
 #about-me{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     flex-direction: column;
 
 }
@@ -77,13 +76,6 @@ h1 {
     flex-direction: column;
 }
 
-   
-.about-me-flex .block:nth-child(1){
-    flex-basis: (75% - 4px);
-}
-.about-me-flex .block:nth-child(2){
-    flex-basis: (25% - 4px);
-}
 
 #services{
     background-color: #fafafa;
@@ -165,5 +157,5 @@ footer {
     color: #fff;
 }
 img {
-    max-width: 100%;
+    width: 100%;
   }
